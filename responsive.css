@@ -28,6 +28,13 @@
 		font-size: 7pt;
 	}
 
+	.header .icons div {
+		color: #fff;
+		cursor: pointer;
+		font-size: 1.5rem;
+		margin-left: 2rem;
+	}
+
 	.container h1 {
 		color:  lightyellow;
 		font-size: 35px ;
@@ -77,6 +84,13 @@
 		margin: 0 1rem;
 		font-size: 1rem;
 		color: #fff;
+	}
+
+	.header .icons div {
+		color: #fff;
+		cursor: pointer;
+		font-size: 1.25rem;
+		margin-left: 2rem;
 	}
 
 	.logo h1 {
