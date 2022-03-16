@@ -251,10 +251,14 @@ h1 {
 .container-product {
   padding: 20px;
   width: 100%;
-  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+/*  padding-left: 15px;
   padding-right: 15px;
   margin-left: 60px;
-  margin-right: 60px;
+  margin-right: 60px;*/
 }
 
 .product {
