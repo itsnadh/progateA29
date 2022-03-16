@@ -256,22 +256,34 @@ h1 {
 
 .product-item img {
   height: 180px;
+  /* position: relative; */
 }
 
-.product-item img:hover {
+.product-item:hover {
   zoom: 110%;
-  box-shadow: 10px 5px moccasin;
-  transition: all: 0.5s;
+  /* box-shadow: 10px 5px moccasin; */
+  transition: all 0.5s;
 }
 
-.label {
+.name {
   font-weight: bold;
 }
 
-.label:hover {
-  color: blueviolet;
-  opacity: 0.6;
+.label {
+  color: black;
+  font-size: 15px;
+  margin-top: 5px;
 }
+
+.button-cart {
+  padding: 15px 20px;
+  background-color: rgb(226, 98, 141);
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* BAGIAN FOOTER */
 
 .footer {
   background: var(--black);
@@ -288,7 +300,7 @@ h1 {
   line-height: 5rem;
   font-size: 2rem;
   color: #fff;
-  border: var(--border);
+  /* border: var(--border); */
   margin: .3rem;
   border-radius: 50%;
 }
